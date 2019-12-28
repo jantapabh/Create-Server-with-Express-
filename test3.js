@@ -25,7 +25,7 @@ const schools = {
     'sufairee': student2
 };
 
-app.get('/api/:schools', function (req, res) {
+app.get('/api/:school', function (req, res) {
 
     const school = req.params.school.toLowerCase();
     if (school == 'jantapa') {
