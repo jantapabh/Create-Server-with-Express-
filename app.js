@@ -2,11 +2,15 @@ const expressFunction = require('express');
 const expressApp = expressFunction();
 
 
-expressApp.get('/',function(req, res) {
-    res.send('Hello Jan');
+expressApp.get('/api/resource', function (req, res) {
+    const myJson = {
+        name: "Jan",
+        nickname: "Joajan"
+    };
+    res.send(myJson);
 });
 
-expressApp.listen(3000, function() {
+expressApp.listen(3000, function () {
 
     console.log('Listen on port 3000');
 });
