@@ -16,7 +16,7 @@ const students = [
 
 expressApp.post('/api/add', function(req, res){
 
-    const studentName = req.params.name;
+    const studentName = req.body.name;
 
     if(studentName.length <= 2){
 
