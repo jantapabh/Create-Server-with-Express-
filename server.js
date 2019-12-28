@@ -21,5 +21,6 @@ const port = process.env.PORT || 4100;
 
 expressApp.listen(port, function(){
 
-    console.log('Listening on PORT 4100');
+    console.log('Listening on PORT port');
+
 });
