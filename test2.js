@@ -12,7 +12,7 @@ app.get('/api/student', function(req,res){
 });
 
 app.get('/api/student/:id',function(req, res){
-    const id = req.paeams.id;
+    const id = req.params.id;
 
     if(id == 1){
         res.send(student[0]);
