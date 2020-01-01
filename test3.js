@@ -25,6 +25,8 @@ const schools = {
     'sufairee': student2
 };
 
+
+
 app.get('/api/:school', function (req, res) {
 
     const school = req.params.school.toLowerCase();
