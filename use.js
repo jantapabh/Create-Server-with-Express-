@@ -16,17 +16,21 @@ const students = [
 
 expressApp.post('/api/add', function(req, res){
 
+
     const studentName = req.body.name;
 
+    
     if(studentName.length <= 2){
 
         res.status(400).send('Error can not add Status');
     }else{
 
+
         const student = {
             id: students.length + 1,
             'name': studentName
         }
+
 
         students.push(student);
         res.send(student);
