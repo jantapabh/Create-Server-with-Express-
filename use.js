@@ -10,7 +10,7 @@ const students = [
         id: 2, 'name': 'Sufairee'
     },
     {
-        id: 3, 'name': 'Rusnee'
+        id: 3, 'name': 'Rusnee.'
     }
 ] 
 
