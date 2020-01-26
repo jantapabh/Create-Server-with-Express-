@@ -14,9 +14,6 @@ const students = [
     }
 ] 
 
-
-
-
 expressApp.post('/api/add', function(req, res){
 
 
