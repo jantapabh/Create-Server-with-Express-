@@ -7,8 +7,6 @@ expressApp.get('/', function(req, res){
 
 });
 
-
-
 expressApp.get('/api/resource', function(req, res) {
 
     var myJson = {
